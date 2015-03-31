@@ -11,18 +11,20 @@ using namespace std;
  1.8 Assume you have a method isSubstring which checks if one word is a substring of another. Given two strings, s1 and s2, write code to check if s2 is a rotation of s1 using only one call to isSubstring (e.g.,"waterbottle"is a rotation of"erbottlewat").
  
  [solution]
- we should first concatenate the string s1 with itself, so that we have a 
+ we should first concatenate the string s1 with itself, so that we have a
  new string like s1s1. Then we check whether s2 is a substring in s1. If it
  is, then it is a rotated form of s1.
  
  [time complexity]
-
+ O(1)
+ just concatenate the string s1 with itself
  
  [space complexity]
-
+ O(n)
+ depend on the length of s1
  
  [gist link]
-
+ 
  
  [test case]
  
